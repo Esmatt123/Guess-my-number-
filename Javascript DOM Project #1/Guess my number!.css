@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+* {
+  box-sizing: border-box;
+  font-family: 'Press Start 2P';
+}
+body {
+  background-color: #050504;
+}
+.gamename {
+  margin: 0 auto;
+  align-content: center;
+}
+.actualheader {
+  height: 100px;
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}
+.bigheader {
+  width: 100%;
+  display: flex;
+
+  padding-top: 50px;
+  padding-bottom: 150px;
+  color: white;
+  border-bottom: 10px solid white;
+}
+.numberinput {
+  border: 4px solid white;
+  height: 100px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 48px;
+  width: 280px;
+  background-color: #050504;
+  color: white;
+}
+.checkbutton {
+  display: block;
+  margin: 0 auto;
+  margin-top: 5px;
+  width: 170px;
+  height: 60px;
+}
+.formbox {
+  display: flex;
+  margin-right: 50px;
+  border: none;
+}
+.scoreboard {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  color: white;
+}
+.rowbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+}
+.questionbox {
+  padding-top: 55px;
+  width: 200px;
+  height: 150px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: -80px;
+  font-size: 48px;
+  color: #050504;
+  text-align: center;
+}
+
+.again {
+  width: 150px;
+}
+.bordernone {
+  border: none;
+}
